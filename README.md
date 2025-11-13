@@ -1,3 +1,4 @@
+
 # Scalable Job Importer with Queue Processing & History Tracking 🚀
 
 ## Objective
@@ -58,10 +59,24 @@ This project is a **scalable job import system** that:
 git clone https://github.com/nikitapatidar1/Jobimport-system.git
 cd Jobimport-system
 
+cd server
+npm install
+cd ../client
+npm install
 
 
 
 
+
+
+
+# Run backend + workers
+cd server
+npm run dev
+
+# Run frontend
+cd client
+npm run dev
 
 
 
@@ -82,4 +97,5 @@ cd Jobimport-system
 | jobicy.xml          | 50    | 0   | 50      | 0      | 11/13/2025, 2:00 PM     |
 | ...                  | ...   | ... | ...     | ...    | ...                      |
 | test-feed.xml       | 10    | 5   | 3       | 0      | 11/13/2025, 8:00 AM     |
+
 
